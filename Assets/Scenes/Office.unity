@@ -3641,14 +3641,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 307fa51b6a635d347a2a38aa719e6219, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startImmediately: 1
-  tablet: {fileID: 92666408}
-  book: {fileID: 0}
-  scanner: {fileID: 0}
-  scannerLight: {fileID: 0}
-  xrOrigin: {fileID: 867903514}
-  initialPosition: {fileID: 867903514}
-  enterPressed: 0
 --- !u!4 &316521917
 Transform:
   m_ObjectHideFlags: 0
@@ -14353,8 +14345,8 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 1
   m_AntialiasingQuality: 2
   m_StopNaN: 0
   m_Dithering: 0
@@ -26097,6 +26089,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187026, guid: 18ddb545287c546e19cc77dc9fbb2189,
+        type: 3}
+      propertyPath: m_KeyboardBodyTranslateMultiplier
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -36883,6 +36880,11 @@ PrefabInstance:
       propertyPath: m_CameraYOffset
       value: 1.7
       objectReference: {fileID: 0}
+    - target: {fileID: 7873184977108000993, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_RequestedTrackingOriginMode
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 9014170783705847993, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       propertyPath: m_ModelPrefab
@@ -36904,6 +36906,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014170783809206330, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: field of view
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 9014170783809206330, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
